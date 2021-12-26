@@ -6,22 +6,16 @@
 
 
 Polycystic Ovary Syndrome is a hormonal disorder common among women of reproductive age. Women with PCOS may have infrequent or prolonged menstural periods or excess male hormone levels. The ovaries may develop  small collections of fluid and fail to regularly release eggs.
+Due to its wide range of symptoms and the presence of a variety of gynaecological problems, PCOS is extremely difficult to diagnose. The time and money spent on several of the clinical testing and ovarian scans has become a hardship for PCOS patients.
+
+This Machine Learning model aids in the early detection and prediction of PCOS based on a set of ideal and minimal but promising clinical and metabolic indicators that serve as early markers for the syndrome.
 
 ## Dataset
 
-The data is collected from 10 different hospitals across Kerala, India.
+
 
 It contains all physical and clinical parameters to determine PCOS and infertility related issues.
 
-Blood Group indications 
-      A+ = 11
-      A- = 12
-      B+ = 13
-      B- = 14
-      O+ =15
-      O- = 16
-      AB+ =17
-      AB- = 18
       
 ![image](https://user-images.githubusercontent.com/71822090/128052774-06a0d24e-39fa-46ee-8cb3-9e482f316a2d.png)
 
@@ -31,8 +25,6 @@ Blood Group indications
 ## Data Cleaning
 
 Missing values were dropped.
-
-Oversampling.
 
 Feature Extraction based on Weight of Evidence (WOE) and Information Value (IV).
 
@@ -83,9 +75,7 @@ Age (Yrs)
 ## Data Modelling
 
 Logistic Regression
-
-Logistic regression is the appropriate regression analysis to conduct when the dependent variable is dichotomous (binary).  Like all regression analyses, the logistic regression is a predictive analysis.  Logistic regression is used to describe data and to explain the relationship between one dependent binary variable and one or more nominal, ordinal, interval or ratio-level independent variables.
-
+The model uses Logistic Regression for the detection and prediction of PCOS.
 ![image](https://user-images.githubusercontent.com/71822090/128053999-c604712d-ff4f-42e8-beec-d5c2c02ac83c.png)
 
 
